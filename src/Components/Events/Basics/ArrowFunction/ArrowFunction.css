@@ -1,0 +1,9 @@
+.green {
+    background-color: lightgreen;
+    border: 5px solid darkgreen;
+}
+
+.red {
+    background-color: pink;
+    border: 5px solid maroon;
+}

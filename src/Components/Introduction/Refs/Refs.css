@@ -1,0 +1,40 @@
+.Refs .colorred {
+    background-color: red;
+}
+
+.Refs .colorgreen {
+    background-color: green;
+}
+
+.Refs .coloryellow {
+    background-color: yellow;
+}
+
+.Refs .colorblue{
+    background-color: blue;
+}
+
+.Refs .colorviolet {
+    background-color: violet;
+}
+
+.Refs .box {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+
+.Refs .box p {
+    padding-top: 90px;
+    color: #fff;
+}
+
+.Refs button {
+    margin: 0px 20px;
+    color: #fff;
+    background-color: gray;
+}
+
+.Refs p {
+    margin-top: 20px;
+}

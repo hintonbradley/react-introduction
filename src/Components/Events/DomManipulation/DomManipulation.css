@@ -1,0 +1,40 @@
+.square {
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    margin-top:30px;
+    padding-top: 30px;
+    background-color: lightgray;
+    color: white;
+    margin: 30px auto 0px;
+    border-radius: 5px;
+  }
+  .switch-off {
+    background-color: #f9314d;
+  }
+  .switch-on {
+    background-color: #1bae61;
+  }
+  .bgd-light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transition: background-color .5s ease;
+  }
+  .light-off {
+    background-color: black;
+  }
+  .light-on {
+    background-color: white;
+  }
+
+  .txt-light {
+    color: white;
+  }
+
+  .txt-dark {
+      color: black;
+  }

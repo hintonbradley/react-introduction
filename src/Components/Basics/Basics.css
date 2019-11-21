@@ -1,0 +1,21 @@
+section {
+    padding: 20px 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img-ctr {
+    margin: 0 auto;
+    display: block;
+}

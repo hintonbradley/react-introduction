@@ -1,0 +1,178 @@
+
+.txt-ctr {
+    text-align: center;
+}
+
+.img-ctr {
+    margin:  0 auto;
+    display: block;
+}
+
+.ul-links {
+    list-style: none;
+    padding: 0;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+.in-bl {
+    display: inline-block;
+}
+
+.m-none {
+    margin: 0;
+}
+
+.basic-card {
+    box-sizing: border-box;
+    padding: 30px 15px;
+}
+
+.basic-card-light {
+    background: lightgray;
+    color: #000;
+}
+
+.basic-card-dark {
+    background: #404040;
+    color: #fff;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.txt-sm {
+    font-size: 12px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.m-ctr {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Component's result */
+.hilight {
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+
+    text-align: center;
+    width: auto;
+}
+
+.component {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+.App.component {
+    margin-top: 60px;
+}
+
+/* End Comopnent's Result */
+
+.Link li {
+    font-size: 16px;
+}
+
+.border-b {
+border-bottom: 1px solid gray;
+}
+
+
+/* Code & Image examples */
+.code-example {
+    border-radius: 5px;
+    margin: 30px 20px 5px;
+    background-color: lightgray;
+    padding-bottom: 20px;
+}
+
+.code-example ol  {
+    list-style: none;
+}
+
+.code-example ul {
+    text-align: left;
+    width: 100%;
+}
+
+.code-example p, .code-example li {
+    font-size: 16px;
+}
+
+.img-example {
+    text-align: center;
+}
+
+.img-example {
+    border-top: 2px solid #000;
+    margin: 5px 25px;
+    padding: 10px;
+}
+
+.code-example div:first-child {
+    border-top: none;
+}
+
+.img-full {
+    width: 100%;
+}
+
+.img-sm {
+    width: 50%;
+}
+
+.img-md {
+    width: 60%;
+    max-width: 1000px;
+}
+
+.img-lg {
+    width: 75%;
+    max-width: 1000px;
+}
+/* End Code & Image examples */
+
+/* Other */
+.text-tiny {
+    font-size: 12px;
+}
+/* End Other */
+
+
+
+@media only screen and (max-width: 600px) {
+    .img-sm, .img-md, .img-lg .img-full {
+        width: 100%;
+    }
+
+    .code-example {
+        min-width: 325px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .img-sm, .img-md, .img-lg .img-full {
+        width: 100%;
+    }
+
+    .code-example {
+        min-width: 325px;
+        margin: 20px 10px;
+    }
+
+    .img-example {
+        padding: 0;
+        margin: 10px;
+    }
+}
