@@ -12,7 +12,7 @@ const Home = function() {
                     <ul className="p-10 ul-links">
                         <li className="txt-ctr border-b"><h2>Introduction</h2></li>
                         <Link to='/basics'>
-                            <li>Basics</li>
+                            <li>Basics of React</li>
                         </Link>
                         <Link to='/comments'>
                             <li>Reusability (Comment)</li>
